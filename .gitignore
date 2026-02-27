@@ -1,0 +1,41 @@
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ── Virtual environments ──────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Jupyter ───────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Sample output (collected proofs & reports — keep folder, ignore files) 
+sample/output/*
+!sample/output/.gitkeep
+
+# ── Input data (may contain sensitive shipment info) ─────────────────────
+sample/input/*.xlsx
+sample/input/*.xls
+!sample/input/README.md
+
+# ── OS / Editor ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/settings.json
+
+# ── Logs & temp ───────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
